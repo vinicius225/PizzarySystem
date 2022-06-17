@@ -1,0 +1,41 @@
+﻿@model LanchesMac.ViewModels.LoginViewModel;
+@{
+    ViewData["Title"] = "Login";
+}
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<form asp-controller="Account" asp-action="login">
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            <!-- Icon -->
+            <!-- Login Form -->
+            <form>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <input class="form-control" required type="text" asp-for="UserName" placeholder="login">
+                        </div>
+                        <div class="col">
+                            <input type="password" required class="form-control" asp-for="Password" placeholder="password">
+                        </div>
+                    </div>
+                    <div class="row">
+                            <input  type="submit" class="btn btn-success align-content-align-content-xl-center mt-2">
+                    </div>
+
+                </div>
+            </form>
+
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="#">Forgot Password?</a>
+            </div>
+
+        </div>
+    </div>
+</form>

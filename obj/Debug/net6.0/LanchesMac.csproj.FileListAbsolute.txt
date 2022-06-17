@@ -265,3 +265,4 @@ C:\Users\vinic\OneDrive\Área de Trabalho\LanchesMac\LanchesMac\obj\Debug\net6.0
 C:\Users\vinic\OneDrive\Área de Trabalho\LanchesMac\LanchesMac\obj\Debug\net6.0\LanchesMac.pdb
 C:\Users\vinic\OneDrive\Área de Trabalho\LanchesMac\LanchesMac\obj\Debug\net6.0\LanchesMac.genruntimeconfig.cache
 C:\Users\vinic\OneDrive\Área de Trabalho\LanchesMac\LanchesMac\obj\Debug\net6.0\ref\LanchesMac.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\LanchesMac\LanchesMac\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
